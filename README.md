@@ -2,4 +2,4 @@
 
 # Getting Started
 
-This is my ge
+This is my get
