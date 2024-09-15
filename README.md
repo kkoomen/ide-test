@@ -4,4 +4,4 @@
 
 This is my getting started
 
-# Instal
+# Install
