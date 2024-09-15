@@ -2,4 +2,4 @@
 
 # Getting Started
 
-This is my getting st
+This is my getting sta
