@@ -2,4 +2,4 @@
 
 # Getting Started
 
-This is my gett
+This is my getti
