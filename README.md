@@ -4,4 +4,4 @@
 
 This is my getting started
 
-# Installa
+# Installat
