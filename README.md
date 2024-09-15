@@ -6,4 +6,4 @@ This is my getting started
 
 # Installation
 
-This is my 
+This is my Installation
