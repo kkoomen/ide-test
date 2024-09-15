@@ -2,4 +2,4 @@
 
 # Getting Started
 
-This is my getting sta
+This is my getting star
