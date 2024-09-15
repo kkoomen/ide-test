@@ -2,4 +2,4 @@
 
 # Getting Started
 
-This is my gettin
+This is my getting
