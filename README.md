@@ -1,3 +1,3 @@
 # this is my readme
 
-# Getting s
+# Getting st
