@@ -2,4 +2,4 @@
 
 # Getting Started
 
-This is my getting starte
+This is my getting started
