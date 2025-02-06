@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 int main(void)
-{
+{a
     int height;
     do
     {
