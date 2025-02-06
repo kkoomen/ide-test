@@ -4,7 +4,7 @@
 int main(void)
 {
     int height;
-    doa
+    do
     {
         height = get_int("Height: ");
     }
