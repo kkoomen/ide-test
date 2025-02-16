@@ -3,10 +3,7 @@
 
 int main()
 {
-    char source[] = "GeeksForGeeks";
-
-    // A copy of source is created dynamically
-    // and pointer to copy is returned.
+    char source[] = "Test";
     char* target = strdup(source); 
 
     printf("%s\n", target);
