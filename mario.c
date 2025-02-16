@@ -5,7 +5,6 @@ int main()
 {
     char source[] = "Test";
     char* target = strdup(source); 
-
     printf("%s\n", target);
     return 0;
 }
