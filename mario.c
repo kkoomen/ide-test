@@ -9,6 +9,6 @@ int main()
     // and pointer to copy is returned.
     char* target = strdup(source); 
 
-    printf("%s", target);
+    printf("%s\m", target);
     return 0;
 }
