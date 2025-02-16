@@ -1,16 +1,8 @@
-#include <cs50.h>
 #include <stdio.h>
-#include <ctype.h>
-#include <string.h>
 
-const char *WORD = "cat";
-const char *REPLACEMENT = "dog";
-const int WORD_LEN = 3;
-
-void convert_word(char *string, int index)
+int main(void)
 {
-
-    printf("Don't say that, say: %s", string);
+    printf("Hello!\n");
 
     return 0;
 }
