@@ -1,27 +1,18 @@
+#include <string.h>
 #include <stdio.h>
+#include <ctype.h>
 #include <cs50.h>
 
 int main(void)
 {
-    int height;
-    do
-    {
-        height = get_int("Height: ");
-    }
-    while (height < 1 || height > 8);
+    char *string = get_string("Type something: ");
 
-    for (int i = 1; i <= height; i++)
+    for (int i = 0; i < strlen(string); i++)
     {
-        for (int j = 0; j < height - i; j++)
-        {
-            printf(" ");
-        }
-        for (int j = 0; j < i; j++)
-        {
-            printf("#");
-        }
-        printf("\n");
+        int ch = string[i];
+        string[i] = i % 2 == 0 ? tolower(string[i]) : toupper(string[i]);
     }
 
+    printf("Spongebob says: %s\n", string);
     return 0;
 }
