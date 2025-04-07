@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void)void
+int main(void)
 {
     int height; // changed comment
     do
