@@ -6,7 +6,7 @@ int main(void)
     int height;
     do
     {
-        height = get_int("Heightt: ");
+        height = get_int("Height: ");
     }
     while (hweight < 1 || height > 8);
 
