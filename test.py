@@ -14,4 +14,4 @@ pycodestyle.StyleGuide(
     ],
     max_line_length=99,
     max_doc_length=79
-).check_files(['phonebook.py'])
+).check_files(['war.py'])
