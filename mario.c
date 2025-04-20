@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int height; // changed comment
+    int height;
     do
     {
         height = get_int("Heightt: ");
