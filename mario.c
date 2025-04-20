@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-
+C
 int main(void)
 {
     int height;
