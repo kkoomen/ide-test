@@ -7,4 +7,4 @@ def long_lines():
 def another_func(): print("Multiple statements on one line"); print("This line is okay but the previous wasn't.") # E502
 
 
-pp
+python3 war.py
