@@ -5,6 +5,3 @@ def long_lines():
     print("This line has trailing whitespace")
 
 def another_func(): print("Multiple statements on one line"); print("This line is okay but the previous wasn't.") # E502
-
-
-python3 war.py
