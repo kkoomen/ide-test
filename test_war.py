@@ -1,3 +1,6 @@
-from war import say_hello
-
-say_hello()
+import time
+n = 0
+while True:
+    n += 1
+    print(n)
+    time.sleep(1)
