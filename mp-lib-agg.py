@@ -2,14 +2,14 @@ import matplotlib
 matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt
+import io
 
-x = [1, 2, 3, 4, 5]
-y = [i ** 2 for i in x]
+# Create the plot
+fig, ax = plt.subplots()
+ax.plot([1, 2, 3], [1, 4, 9])
+ax.set_title('Sample Plot')
 
-plt.figure(figsize=(4, 3))
-plt.plot(x, y, marker='o')
-plt.title("Simple Plot")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
-plt.grid(True)
-plt.show()
+# Save the plot to a BytesIO object
+buf = io.BytesIO()
+fig.savefig(buf, format='png')
+buf.seek(0)
