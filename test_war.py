@@ -1,2 +1,1 @@
-x = 5
-print('Your number is:', x)
+print('hello from test_war.py')
