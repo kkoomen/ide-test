@@ -1,2 +1,2 @@
-x = input('> ')
-print('You typed:', x)
+x = 5
+print('Your number is:', x)
