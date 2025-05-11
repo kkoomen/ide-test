@@ -1,7 +1,4 @@
-import matplotlib
 import matplotlib.pyplot as plt
-
-matplotlib.use("module://matplotlib_pyodide.wasm_backend")
 
 # Sample data
 x = [1, 2, 3, 4, 5]
