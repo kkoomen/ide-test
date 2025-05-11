@@ -16,4 +16,4 @@ plt.ylabel('Y-axis')
 plt.title('Simple Plot')
 
 # Display the plot
-plt.show()
+plt.savefig('myfile.png')
