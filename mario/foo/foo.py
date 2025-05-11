@@ -3,5 +3,3 @@ with open("test2.txt", "w") as f:
     f.write("This is a test file.\n")
     f.write("It contains multiple lines of text.\n")
     f.write("This is the last line.")
-    
-    
