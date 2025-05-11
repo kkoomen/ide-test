@@ -13,3 +13,5 @@ ax.set_title('Sample Plot')
 buf = io.BytesIO()
 fig.savefig(buf, format='png')
 buf.seek(0)
+
+print(buf.)
