@@ -1,3 +1,3 @@
-from .mario_nested import say_hello_from_mario
+from mario.foo.mario_nested import say_hello_from_mario
 
 say_hello_from_mario()
