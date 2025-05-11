@@ -11,5 +11,5 @@ ax.set_title('Sample Plot')
 
 # Save the plot to a BytesIO object
 buf = io.BytesIO()
-fig.savefig("buf", format='png')
+fig.savefig("test.png", format='png')
 buf.seek(0)
