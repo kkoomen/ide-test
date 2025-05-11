@@ -1,16 +1,15 @@
+import matplotlib
+matplotlib.use("module://matplotlib_pyodide.wasm_backend")
+
 import matplotlib.pyplot as plt
 
-# # Sample data
-# x = [1, 2, 3, 4, 5]
-# y = [1, 4, 9, 16, 25]
+x = [1, 2, 3, 4, 5]
+y = [i ** 2 for i in x]
 
-# # Create the plot
-# plt.plot(x, y)
-
-# # Add labels and title
-# plt.xlabel('X-axis')
-# plt.ylabel('Y-axis')
-# plt.title('Simple Plot')
-
-# # Display the plot
-# plt.savefig('myfile.png')
+plt.figure(figsize=(4, 3))
+plt.plot(x, y, marker='o')
+plt.title("Simple Plot")
+plt.xlabel("X Axis")
+plt.ylabel("Y Axis")
+plt.grid(True)
+plt.show()
