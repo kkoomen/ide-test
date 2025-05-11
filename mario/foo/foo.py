@@ -1,1 +1,1 @@
-undefined
+print()
