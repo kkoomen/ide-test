@@ -10,6 +10,4 @@ ax.plot([1, 2, 3], [1, 4, 9])
 ax.set_title('Sample Plot')
 
 # Save the plot to a BytesIO object
-buf = io.BytesIO()
 fig.savefig("test.png", format='png')
-buf.seek(0)
