@@ -1,5 +1,5 @@
 import matplotlib
-matplotlib.use("module://matplotlib_pyodide.wasm_backend")
+matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt
 
