@@ -6,7 +6,7 @@ import io
 
 # Create the plot
 fig, ax = plt.subplots()
-ax.plot([1, 2, 3], [1, 4, 12])
+ax.plot([1, 2, 3], [1, 4, 9])
 ax.set_title('Sample Plot')
 
 # Save the plot to a BytesIO object
