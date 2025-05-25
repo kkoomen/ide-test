@@ -1,1 +1,1 @@
-print('hello from test_war.py'). 
+print('hello from test_war.py').  
