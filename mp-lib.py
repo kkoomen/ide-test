@@ -1,6 +1,6 @@
 import matplotlib
 matplotlib.use("module://matplotlib_pyodide.wasm_backend")
-
+ 
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
