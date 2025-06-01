@@ -13,12 +13,12 @@ y3 = x ** 2
 plt.figure(figsize=(8, 6))
 plt.plot(x, y1, label='x')
 plt.plot(x, y2, label='x log x')
-plt.plot(x, y3, label='x²')
+plt.plot(x, y3, label='xÂ²')
 
 # Add labels, legend and title
 plt.xlabel('x')
 plt.ylabel('f(x)')
-plt.title('Plot of x, x log x, and x²')
+plt.title('Plot of x, x log x, and xÂ²')
 plt.legend()
 plt.grid(True)
 
