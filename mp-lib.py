@@ -1,15 +1,29 @@
-import matplotlib
-matplotlib.use("module://matplotlib_pyodide.wasm_backend")
-  
+import numpy as np
 import matplotlib.pyplot as plt
 
-x = [1, 2, 3, 4, 5]
-y = [i ** 2 for i in x].
+# Define the range of x (start slightly above 0 to avoid log(0))
+x = np.linspace(0.1, 100, 500)
 
-plt.figure(figsize=(4, 3))
-plt.plot(x, y, marker='o')
-plt.title("Simple Plot")
-plt.xlabel("X Axis")
-plt.ylabel("Y Axis")
+# Define the functions
+y1 = x
+y2 = x * np.log(x)
+y3 = x ** 2
+
+# Create the plot
+plt.figure(figsize=(8, 6))
+plt.plot(x, y1, label='x')
+plt.plot(x, y2, label='x log x')
+plt.plot(x, y3, label='x²')
+
+# Add labels, legend and title
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.title('Plot of x, x log x, and x²')
+plt.legend()
 plt.grid(True)
-plt.show()
+
+# Save the figure to a PNG file
+plt.savefig('functions_plot.png')
+
+# Optionally show the plot
+# plt.show()
