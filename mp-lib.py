@@ -24,6 +24,3 @@ plt.grid(True)
 
 # Save the figure to a PNG file
 plt.savefig('functions_plot.png')
-
-# Optionally show the plot
-# plt.show()
