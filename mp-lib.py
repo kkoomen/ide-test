@@ -1,2 +1,2 @@
 a = 5
-print(x)
+print(a)
