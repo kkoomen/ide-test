@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("This \n");
+    printf("This file has no additional source files.\n");
     return 0;
 }
