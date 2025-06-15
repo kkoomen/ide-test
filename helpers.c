@@ -1,4 +1,3 @@
-// helpers.c
 #include <stdio.h>
 
 void my_helper_func(void) {
