@@ -1,4 +1,3 @@
-// find.c
 #include <stdio.h>
 
 // Declare the helper function
