@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 plt.close('all')
 
 # Define the range of x (start slightly above 0 to avoid log(0))
-x = np.linspace(0.1, 100, 500)
+x = np.linspace(0.1, 100, 500) 
 
 # Define the functions
 y1 = x
