@@ -1,1 +1,1 @@
-print(x)
+from foo.mario
