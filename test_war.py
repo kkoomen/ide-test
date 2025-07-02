@@ -1,1 +1,1 @@
-from foo.mario
+from foo.mario import 
