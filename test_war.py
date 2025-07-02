@@ -1,1 +1,0 @@
-print('hello from test_war.py')
