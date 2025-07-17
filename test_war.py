@@ -1,2 +1,1 @@
-
-print(numpy.__version__) 
+print(numpy.__version__)
