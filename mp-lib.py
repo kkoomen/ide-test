@@ -8,7 +8,7 @@ x = np.linspace(0.1, 100, 500)
 
 # Define the functions
 y1 = x
-y2 = x * np.log(x)--
+y2 = x * np.log(x)
 y3 = x ** 2
 
 # Create the plot
