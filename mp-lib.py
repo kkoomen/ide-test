@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 plt.close('all')
 
-p
+pl
 
 # Define the range of x (start slightly above 0 to avoid log(0))
 x = np.linspace(0.1, 100, 500) 
